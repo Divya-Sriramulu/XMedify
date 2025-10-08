@@ -8,12 +8,12 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 function App() {
   return (
-    <>
+    <div>
     <CssBaseline />
     <Outlet />    
     <DownloadApp /> 
     <Footer />
-    </>
+    </div>
   );
 }
 
