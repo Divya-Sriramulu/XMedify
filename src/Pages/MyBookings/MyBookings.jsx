@@ -42,7 +42,7 @@ function MyBookings() {
               alignItems={{ xs: "center", md: "flex-end" }}
             >
               <Typography
-                component="h1"
+                variant="h1"
                 pb={1}
                 fontSize={{ xs: 32, md: 40 }}
                 fontWeight={700}
