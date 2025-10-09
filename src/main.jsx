@@ -5,7 +5,7 @@ import App from './App';
 import Home from "./Pages/Home/Home";
 import MyBookings from "./Pages/MyBookings/MyBookings";
 import Search from "./Pages/Search/Search";
-import { ThemeProvider, createTheme} from "@mui/material/styles";
+import { ThemeProvider, createTheme} from "@mui/material";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const myroutes = createBrowserRouter([{
@@ -17,7 +17,7 @@ const myroutes = createBrowserRouter([{
     element: <Search />,
   },
   {
-    path: "my-bookings",
+    path: "mybookings",
     element: <MyBookings />,
   },
   {
@@ -145,8 +145,4 @@ root.render(
     </ThemeProvider>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
