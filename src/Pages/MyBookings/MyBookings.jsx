@@ -46,7 +46,11 @@ function MyBookings() {
                 pb={1}
                 fontSize={{ xs: 32, md: 40 }}
                 fontWeight={700}
-                color="#fff">My Bookings</Typography>
+                color="#fff"
+                data-testid="my-bookings-heading"
+                >
+                  My Bookings
+                  </Typography>
               <Box
                 bgcolor="#fff"
                 p={3}
